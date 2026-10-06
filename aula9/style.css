@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    background: url('https://images.pexels.com/photos/15148654/pexels-photo-15148654.jpeg') no-repeat center center;
     color: #0c347d;
 }
 
@@ -12,7 +12,7 @@ main{
 }
 
 .card{
-    background-color: #fff;
+    background-color: #ffffff;
     border: 2px solid #19204d;
     border-radius: 10px;
     padding: 14px 16px;
