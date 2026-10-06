@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0;
-    background: url('https://images.pexels.com/photos/15148654/pexels-photo-15148654.jpeg') no-repeat center center;
+    background: url("https://images.pexels.com/photos/15148654/pexels-photo-15148654.jpeg");
     color: #0c347d;
 }
 
