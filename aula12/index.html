@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mídia em HTML — Cafeteria Grão Dourado</title>
+</head>
+<body>
+  <a href="../index.html"><button
+      style = "background-color:
+             #d2c6b6;
+             width: 75px; height : 40px;
+             color: #3b2104;
+             border : 2px solid #F2F4FD;
+             border-radius:35px"
+      >Voltar</button></a>
+
+  <h1>🎅🏻 Natal </h1>
+  <p>Vídeo, áudio, YouTube e PDF em uma única página.</p>
+
+  <!-- ===== VÍDEO ===== -->
+  <h2>Nosso vídeo</h2>
+  <video width="640" height="360" controls poster="imagem/poster.jpg" preload="metadata" autoplay muted loop poster="video/poster.jpg">
+    <source src="video/video_natal.mp4" type="video/mp4">
+    <source src="video/cafe.webm" type="video/webm">
+    <track src="video/legenda.vtt" kind="subtitles" srclang="pt" label="Português" default>
+    Seu navegador não suporta vídeo.
+    <a href="video/video_natal.mp4">Baixe o vídeo (MP4)</a>.
+  </video>
+
+  <!-- ===== ÁUDIO ===== -->
+  <h2>Nossa vinheta</h2>
+  <audio controls>
+    <source src="audio/audio_natal.mp4" type="audio/mpeg">
+    <source src="audio/audio/jingle.ogg" type="audio/ogg">
+    Seu navegador não suporta áudio.
+    <a href="audio/audio_natal.mp4">Baixe a vinheta (MP4)</a>.
+  </audio>
+
+  <!-- ===== YOUTUBE ===== -->
+  <h2>Vídeo do YouTube</h2>
+  <!-- Troque SEU_ID_DO_VIDEO pelo código que aparece depois de "v=" no endereço do vídeo -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/52p4L7f3DZQ?si=mHxXucT0tOZxid32" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <!-- ===== PDF ===== -->
+  <h2>Nosso cardápio</h2>
+  <object data="docs/cardapio_natal.png" type="image/png" width="640" height="800">
+    Seu navegador não mostra a imagem aqui.
+    <a href="docs/cardapio_natal.png">Abra o cardápio em imagem</a>.
+  </object>
+
+</body>
+</html>
